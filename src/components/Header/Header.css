@@ -1,0 +1,84 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(65, 150, 65);
+  color: white;
+  padding: 10px;
+}
+
+.right-container {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-container-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-name-input {
+  width: fit-content !important;
+  padding: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.header-options {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.option {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.option:hover {
+  background-color: rgba(244, 244, 244, 0.516);
+  border-radius: 5px;
+}
+
+.file-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-editor {
+  margin-block: 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgba(188, 173, 173, 0.194);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editor-icon {
+  cursor: pointer;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.editor-icon:hover {
+  background-color: rgba(202, 207, 201, 0.731);
+  border-radius: 10px;
+}
+
+.header-editor-left {
+  display: flex;
+  gap: 10px;
+}
